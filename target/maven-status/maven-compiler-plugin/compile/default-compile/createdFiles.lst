@@ -1,0 +1,15 @@
+View\JfrmConvertionView.class
+Dtos\CurrencyRequest.class
+com\holaweb\currencyconvertion\CurrencyConvertion.class
+View\JfrmConvertionView$2.class
+Controller\CurrencyController.class
+Dtos\CurrencyResponse.class
+com\holaweb\currencyconvertion\model\CurrencyConverter.class
+Service\IpDataUserService.class
+Dtos\FlagDtoResponse.class
+Dtos\CountryDto.class
+Service\CurrencyApiService.class
+Service\FlagService.class
+View\JfrmConvertionView$1.class
+Config\ApiConfig.class
+com\holaweb\currencyconvertion\model\Currency.class
