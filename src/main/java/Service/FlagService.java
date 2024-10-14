@@ -1,6 +1,7 @@
 package Service;
 
 import Config.ApiConfig;
+import Dtos.CountryDto;
 import Dtos.FlagDtoResponse;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
@@ -18,9 +19,9 @@ public class FlagService {
         this.hc = HttpClient.newHttpClient();
     }
 
-    public FlagDtoResponse getFlagByCountry(String country) throws IOException, InterruptedException {
+    public FlagDtoResponse getFlagByCountry(CountryDto country) throws IOException, InterruptedException {
         // Construir la URL
-        String url = ApiConfig.getAPI_GET_FLAG() + country;
+        String url = ApiConfig.getAPI_GET_FLAG() + country.country();
 
         // Construir la solicitud HTTP
         HttpRequest request = HttpRequest.newBuilder()
